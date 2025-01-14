@@ -1,74 +1,78 @@
-/* Reset dasar */
+/* Reset default margin dan padding */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+/* Style untuk body */
 body {
     font-family: Arial, sans-serif;
-    background-color: #f0f2f5;
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+header nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Hero Section */
+.hero {
+    background-color: #f4f4f4;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 3em;
     color: #333;
 }
 
-.container {
-    max-width: 1000px;
-    margin: 0 auto;
-    padding: 20px;
+.hero p {
+    font-size: 1.2em;
+    margin: 20px 0;
 }
 
-header {
-    text-align: center;
-    padding: 20px;
-}
-
-.profile {
-    background-color: #fff;
-    border-radius: 10px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    padding: 20px;
-    margin-top: 20px;
-}
-
-.profile-header {
-    text-align: center;
-}
-
-.profile-image {
-    border-radius: 50%;
-    width: 150px;
-    height: 150px;
-    object-fit: cover;
-    margin-bottom: 20px;
-}
-
-h2 {
-    font-size: 24px;
-    margin-bottom: 10px;
-}
-
-.bio {
-    font-size: 16px;
-    color: #666;
-    margin-bottom: 20px;
-}
-
-.friend-button {
-    padding: 10px 20px;
-    background-color: #0078d4;
+.hero button {
+    background-color: #4CAF50;
     color: white;
+    padding: 10px 20px;
     border: none;
-    border-radius: 5px;
     cursor: pointer;
 }
 
-.friend-button:hover {
-    background-color: #005fa3;
+.hero button:hover {
+    background-color: #45a049;
 }
 
-footer {
+/* Section */
+section {
+    padding: 40px 20px;
     text-align: center;
-    margin-top: 40px;
-    font-size: 14px;
-    color: #888;
+}
+
+/* Footer */
+footer {
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
 }
