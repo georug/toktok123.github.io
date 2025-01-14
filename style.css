@@ -1,0 +1,74 @@
+/* Reset dasar */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f2f5;
+    color: #333;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+}
+
+.profile {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.profile-header {
+    text-align: center;
+}
+
+.profile-image {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.bio {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.friend-button {
+    padding: 10px 20px;
+    background-color: #0078d4;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.friend-button:hover {
+    background-color: #005fa3;
+}
+
+footer {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 14px;
+    color: #888;
+}
