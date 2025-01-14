@@ -1,0 +1,84 @@
+* {
+    scroll-behavior: smooth;
+}
+
+html,
+body {
+    overflow-x: hidden;
+    font-family: 'Archivo Black';
+    
+}
+@keyframes customBounce {
+    30% {
+        transform: scale(1.2);
+    }
+
+    40%,
+    60% {
+        transform: rotate(-20deg) scale(1.2);
+    }
+
+    50% {
+        transform: rotate(20deg) scale(1.2);
+    }
+
+    70% {
+        transform: rotate(0deg) scale(1.2);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+.about-logos {
+    animation: customBounce 1.5s infinite;
+}
+.w-full button:hover .svgg path {
+    fill: black;
+}
+.container {
+    width: 100%;
+    max-width: 1200px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.message-box {
+    border: 2px solid #4CAF50;
+    padding: 20px;
+    background-color: #4CAF50;
+    border-radius: 20px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.message-box h3 {
+    color: white;
+    font-weight: bold;
+}
+
+.roadmap {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.roadmap div {
+    background-color: #4CAF50; /* Green background for each phase */
+    border: 2px solid #4CAF50;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.roadmap div h3 {
+    color: white;
+    font-weight: bold;
+}
+
+.roadmap div p {
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+}
