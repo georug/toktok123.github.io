@@ -1,0 +1,36 @@
+/* CSS mobile Anda tetap di sini */
+
+/* Media query untuk desktop */
+@media screen and (min-width: 1024px) {
+  body {
+    font-size: 18px; /* Ukuran font lebih besar di desktop */
+    background-color: #eaeaea; /* Warna latar desktop */
+  }
+
+  .container {
+    max-width: 1200px; /* Lebar kontainer untuk desktop */
+    margin: 0 auto; /* Pusatkan konten */
+    padding: 40px; /* Tambahkan padding */
+  }
+
+  h1 {
+    font-size: 3em; /* Ukuran font lebih besar untuk judul */
+    color: #333; /* Warna teks untuk judul */
+  }
+
+  p {
+    font-size: 1.2em; /* Perbesar teks paragraf */
+    line-height: 1.8; /* Tambahkan spasi antarbaris */
+    margin-bottom: 30px; /* Jarak antarparagraf */
+  }
+
+  a {
+    font-size: 1em; /* Ukuran link normal */
+    color: #0056b3; /* Warna link lebih gelap */
+  }
+
+  a:hover {
+    color: #ff5722; /* Warna link saat hover */
+    text-decoration: underline; /* Tambahkan garis bawah saat hover */
+  }
+}
